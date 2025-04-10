@@ -28,7 +28,7 @@ This project involves implementing a LinkedList from scratch in Java. The projec
 ## Installation
 1. Clone the repository:
     sh
-    git clone https://github.com/kjmutsch/LinkedListProject.git
+    git clone https://github.com/kjmutsch/linked-list.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -60,10 +60,10 @@ The algorithm merges two sorted LinkedLists into a single sorted LinkedList.
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
  
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
+2. Create your feature branch (`git checkout -b feature/NewFeature`)
+3. Commit your changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the branch (`git push origin feature/NewFeature`)
+5. Open a PR
  
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
