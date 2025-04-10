@@ -27,7 +27,7 @@ This project involves implementing a LinkedList from scratch in Java. The projec
  
 ## Installation
 1. Clone the repository:
-    sh
+    ```sh
     git clone https://github.com/kjmutsch/linked-list.git
     ```
 2. Navigate to the project directory:
