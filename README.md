@@ -16,7 +16,6 @@ This project involves implementing a LinkedList from scratch in Java. The projec
   - [Detecting a Cycle](#detecting-a-cycle)
   - [Reversing a LinkedList](#reversing-a-linkedlist)
   - [Merging Two Sorted LinkedLists](#merging-two-sorted-linkedlists)
-- [Contributing](#contributing)
 - [License](#license)
  
 ## Features
@@ -55,15 +54,6 @@ The algorithm reverses the LinkedList by changing the next pointers of the nodes
  
 ### Merging Two Sorted LinkedLists
 The algorithm merges two sorted LinkedLists into a single sorted LinkedList.
- 
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
- 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/NewFeature`)
-3. Commit your changes (`git commit -m 'Add some NewFeature'`)
-4. Push to the branch (`git push origin feature/NewFeature`)
-5. Open a PR
  
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
