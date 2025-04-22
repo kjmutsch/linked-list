@@ -84,9 +84,20 @@ public class LinkedList {
     }
  
     // Detect if there is a cycle in the list
+    // edge cases I'd use to test: single node that is a cycle, null list, single node that is not a cycle, even numbered
+    // list, odd numbered list
     public boolean hasCycle() {
-        // Implementation goes here
-        return false; // Placeholder return value
+        if(head == null || head.next == null) return false;
+        Node fast = head.next;
+        Node slow = head;
+
+        while(fast != null && fast.next != null) {
+            if(fast == slow) return true;
+            slow = slow.next;
+            fast = fast.next.next;
+            
+        }
+        return false;
     }
  
     // Reverse the linked list
