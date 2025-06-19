@@ -106,10 +106,28 @@ public class LinkedList {
         return null; // Placeholder return value
     }
  
-    // Merge two sorted linked lists
+    // Merge two sorted linked lists into a new sorted linked list
     public static Node mergeTwoLists(Node l1, Node l2) {
-        // Implementation goes here
-        return null; // Placeholder return value
+        Node listBuilder = new Node(-1);
+        Node headStorage = listBuilder; // points to same place as listBuilder
+
+        while(l1 != null && l2 != null) {
+            // find which list has the smallest value
+            if(l1.data <= l2.data) {
+                listBuilder.next = l1;
+                l1 = l1.next; // move onto next value for l1
+            } else {
+                listBuilder.next = l2;
+                l2 = l2.next; // move onto next value for l2
+            }
+            listBuilder = listBuilder.next; 
+        }
+        if(l1 == null) {
+            listBuilder.next = l2;
+        } else if (l2 == null) {
+            listBuilder.next = l1;
+        }
+        return headStorage.next; // return the temp value head's next
     }
  
     // Main method for testing
