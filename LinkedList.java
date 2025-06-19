@@ -102,8 +102,6 @@ public class LinkedList {
  
     // Reverse the linked list
     public Node reverseList() {
-        // Implementation goes here
-        return null; // Placeholder return value
     }
  
     // Merge two sorted linked lists into a new sorted linked list
