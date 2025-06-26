@@ -1,11 +1,16 @@
 # LinkedList Project
  
 ## Overview
-This project involves implementing a LinkedList from scratch in Java. The project includes the following features:
+This project involves implementing a LinkedList, DoublyLinkedList, and CircularLinkedList from scratch in Java. 
+The LinkedList includes the following features:
 - Basic LinkedList operations (insertion, deletion, traversal)
 - Algorithms for detecting a cycle in a LinkedList
 - Reversing a LinkedList
 - Merging two sorted LinkedLists
+
+The DoublyLinkedList includes these features:
+
+The CircularLinkedList includes these features:
  
 ## Table of Contents
 - [Overview](#overview)
