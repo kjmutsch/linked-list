@@ -41,7 +41,7 @@ public class LinkedList {
         current.next = temp;
     }
  
-    // Delete a node with a specific value
+    // Delete a node with a specific value, only deletes first occurrence though
     public void deleteNode(int data) {
         if(head.data == data) {
             head = head.next;
