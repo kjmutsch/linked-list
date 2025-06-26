@@ -100,8 +100,17 @@ public class LinkedList {
         return false;
     }
  
-    // Reverse the linked list
+    // Reverse the linked list, time complexity is O(n) and space complexity is O(1) because it's only storing pointers
     public Node reverseList() {
+        Node curr = head;
+        Node prev = null;
+        while (curr != null) { // ex. 1, 2, 3, 4, all comments are for first iteration only
+            Node saveOld = curr; // save old list (1, 2, 3, 4)
+            curr.next = prev; // set current node's next value to previous value (1 => null)
+            prev = curr; // prev is now 1
+            curr = saveOld.next; // now contains entire list starting at 2, 2 => 3 => 4 => null
+        }
+        return prev;
     }
  
     // Merge two sorted linked lists into a new sorted linked list
@@ -131,5 +140,10 @@ public class LinkedList {
     // Main method for testing
     public static void main(String[] args) {
         // Test the LinkedList implementation here
+        LinkedList tester = new LinkedList();
+        tester.insertAtHead(1);
+        tester.insertAtHead(5);
+
+        tester.traverse();
     }
 }
