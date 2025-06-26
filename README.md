@@ -4,13 +4,9 @@
 This project involves implementing a LinkedList, DoublyLinkedList, and CircularLinkedList from scratch in Java. 
 The LinkedList includes the following features:
 - Basic LinkedList operations (insertion, deletion, traversal)
-- Algorithms for detecting a cycle in a LinkedList
+- Algorithms for detecting a cycle in a LinkedList (did not rewrite for the doubly linked list because I'd use the same algorithm for it)
 - Reversing a LinkedList
-- Merging two sorted LinkedLists
-
-The DoublyLinkedList includes these features:
-
-The CircularLinkedList includes these features:
+- Merging two sorted LinkedLists (only done for regular linked list)
  
 ## Table of Contents
 - [Overview](#overview)
